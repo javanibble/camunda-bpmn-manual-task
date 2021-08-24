@@ -59,3 +59,18 @@ curl --location --request POST 'http://localhost:8080/rest/process-definition/ke
 The following is the output to the console after running the above command.
 
 ![Console](https://www.javanibble.com/assets/images/posts/bpmn-manual-task/console-camunda-bpmn-manual-task.png)
+
+## View Camunda Admin Console
+To view the Camunda Admin Console, type the following url in your browser while the application is running. You will be prompted with the login screen.
+
+* [http://localhost:8080/](http://localhost:8080/)
+
+After you have typed the above URL in a browser while the application is running, you will be prompted with the login screen. Type the Username and Password you set within the application properties file.
+
+
+## View the H2 Console
+To view the H2 Console, type the following url in your browser while the application is running. You will be prompted with the login screen.
+
+* [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
+
+After you have typed the above URL in a browser while the application is running, you will be prompted with the login screen. Press the connect button since there is no password specified.
