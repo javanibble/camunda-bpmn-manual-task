@@ -3,7 +3,7 @@ The article contains a step-by-step guide on how to implement a BPMN Manual Task
 
 **Java Nibble Article:** [https://www.javanibble.com/implement-bpmn-manual-task-in-camunda/](https://www.javanibble.com/implement-bpmn-manual-task-in-camunda/)
 
-**Pre-Requisites**
+## Pre-Requisites
 The following is required to run the Spring Boot example:
 * [curl](https://www.javanibble.com/how-to-install-curl-on-macos-using-homebrew/)
 * jq
@@ -59,6 +59,3 @@ curl --location --request POST 'http://localhost:8080/rest/process-definition/ke
 The following is the output to the console after running the above command.
 
 ![Console](https://www.javanibble.com/assets/images/posts/bpmn-manual-task/console-camunda-bpmn-manual-task.png)
-
-## Finally
-Congratulations !!! You have successfully implemented a BPMN Manual Task in Camunda making use of a Spring Boot Application.
