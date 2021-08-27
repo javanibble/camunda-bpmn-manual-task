@@ -14,7 +14,7 @@ A Manual Task defines a task that is external to the BPM engine. It is used to m
 
 Use Camunda Modeller to model the process. The process model is composed of four manual tasks:
 
-![BPMN Manual Task](https://www.javanibble.com//assets/images/posts/bpmn-manual-task/camunda-bpmn-manual-task.png)
+![BPMN Manual Task](https://www.javanibble.com/assets/images/posts/bpmn-manual-task/camunda-bpmn-manual-task.png)
 
 * Retrieve Coffee Order: Is a `Manual Task` linked to an Execution Listener with a Delegate Expressions value of `${executionlistener}`.
 * Make Coffee: Is a `Manual Task` linked to an Execution Listener with a Delegate Expressions value of `${executionlistener}`.
