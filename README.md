@@ -47,7 +47,7 @@ After the application has started, run the following command in another terminal
 The following command instantiates a new instance of the `order-coffee` process.
 
 ```shell
-$ ./run_start_process.sh
+$ ./start_process.sh
 ```
 
 The script performs the following commands:
