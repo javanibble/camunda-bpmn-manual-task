@@ -53,7 +53,7 @@ $ ./start_process.sh
 The script performs the following commands:
 
 ```shell
-curl --location --request POST 'http://localhost:8080/rest/process-definition/key/order-coffee/start' --header 'Content-Type: application/json'
+curl --location --request POST 'http://localhost:8080/engine-rest/process-definition/key/order-coffee/start' --header 'Content-Type: application/json'
 ``` 
 
 The following is the output to the console after running the above command.
